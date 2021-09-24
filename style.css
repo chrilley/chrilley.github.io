@@ -15,6 +15,12 @@ h1 {
     text-align: center;
 }
 
+#portrait {
+    display: flex;
+    justify-content: center;  
+    padding: 5px;
+}
+
 #main {
     display: flex;
     margin-left: auto;
@@ -52,6 +58,19 @@ h1 {
 #right-column {
     flex:12vmax;
     flex:25vmin;
+}
+
+#menu {
+    text-align: center;
+    font-size: 3em;
+}
+
+.fa, .fab {
+    color: rgb(50, 50, 50, 0.5);
+}
+
+.fa:hover, .fab:hover {
+    color: rgb(20, 20, 20, 0.8);
 }
 
 #copyright {

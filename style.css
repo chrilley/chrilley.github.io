@@ -87,8 +87,9 @@ h1 {
     }
 
     #portrait {
-       z-index: 999;
-       float: right;  
+       position: absolute;
+       right:1em;
+        
     }
 
     .entry {

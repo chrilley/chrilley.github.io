@@ -80,9 +80,42 @@ h1 {
 }
 
 @media screen and ( orientation: portrait ) { 
+    
+    h1, h2, h3, h4, h5, p  {
+        transform: scale(0.75);
+        transform-origin: 0 0;
+    }
+
+    #portrait {
+       z-index: 999;
+       float: right;  
+    }
+    
+    .entry {
+        margin-bottom: 0.1em;
+    }
+
+    .skill {
+        float: left;
+    }
+
     #main { 
         flex-direction: column; 
         width: 100%;
         height: 75%;
+    }
+
+    #middle-column {
+        flex-direction: column;  
+    }
+
+    #misc, #education, #experience {
+        float:left;
+    }
+
+    #profile {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2em;
     }
 }

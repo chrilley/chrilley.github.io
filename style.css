@@ -10,10 +10,15 @@ body {
 
 h1 {
     text-align: center;
+    width: fit-content;
+    margin-left: auto;
+    margin-right:auto;
 }
 
 #job-titles {
-    text-align: center;
+    
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #portrait {
@@ -77,13 +82,26 @@ h1 {
 
 #copyright {
     text-align: center;
+    width: fit-content;
+    margin-left: auto;
+    margin-right:auto;
 }
 
 @media screen and ( orientation: portrait ) { 
-    
-    h1, h2, h3, h4, h5, p, #job-titles  {
-        transform: scale(0.75);
-        transform-origin: 0 0;
+    #job-titles{
+ 
+        font-size: 1em;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 1.2em;
+    }
+     h3, h4, h5, p   {
+        font-size: 0.8em;
     }
 
     #portrait {
@@ -94,6 +112,7 @@ h1 {
 
     .entry {
         margin-bottom: 0.1em;
+        margin-right: 1em;
     }
 
     .skill {
@@ -115,6 +134,7 @@ h1 {
     #misc, #education, #experience {
         float:left;
         width: fit-content;
+        margin-bottom: 1em;
     }
 
     #profile {

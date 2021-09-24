@@ -3,7 +3,6 @@
     padding: 0px;
 }
 
-
 body {
     font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -16,7 +15,6 @@ h1 {
 }
 
 #job-titles {
-    
     margin-left: auto;
     margin-right: auto;
 }
@@ -89,7 +87,6 @@ h1 {
 
 @media screen and ( orientation: portrait ) { 
     #job-titles{
- 
         font-size: 1em;
         text-align: center;
     }
@@ -97,8 +94,10 @@ h1 {
     h1 {
         font-size: 1.5em;
     }
+
     h2 {
         font-size: 1.2em;
+
     }
      h3, h4, h5, p   {
         font-size: 0.8em;
@@ -106,8 +105,10 @@ h1 {
 
     #portrait {
        position: absolute;
-       right:1em;
-        
+       top: 2.55em;
+       right: 0.05em;
+       transform: scale(0.75);
+       
     }
 
     .entry {

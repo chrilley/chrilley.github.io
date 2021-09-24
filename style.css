@@ -97,18 +97,17 @@ h1 {
 
     h2 {
         font-size: 1.2em;
+        width: 100%;
 
     }
      h3, h4, h5, p   {
         font-size: 0.8em;
     }
 
-    #portrait {
+    #portrait img{
        position: absolute;
-       top: 2.55em;
-       right: 0.05em;
+       right: 0px;
        transform: scale(0.75);
-       
     }
 
     .entry {

@@ -1,10 +1,24 @@
 * {
     margin: 0px;
     padding: 0px;
+    color: white;
+}
+
+#bg-video{
+    z-index: -1;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    mix-blend-mode: hard-light;
+    opacity: 0.25;
+    
 }
 
 body {
     font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(1, 12, 41);
 }
 
 h1 {
@@ -14,10 +28,24 @@ h1 {
     margin-right:auto;
 }
 
+h2 {
+    color: rgb(32, 121, 199);
+}
+
+h3 {
+    color: rgb(92, 92, 92);
+}
+
+h5 {
+    color: rgb(128, 128, 128);
+    font-style: italic;
+}
+
 #job-titles {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    color: rgb(100, 100, 100);
 }
 
 #portrait {
@@ -48,9 +76,12 @@ h1 {
     padding: 15px;
 }
 
+#profile {
+    color: rgb(170, 170, 170);
+}
+
 #left-column {
-    flex: 20vmax;
-    flex: 30vmin;
+    flex: 0 0 10em;
 }
 
 #middle-column {
@@ -62,8 +93,7 @@ h1 {
 }
 
 #right-column {
-    flex:12vmax;
-    flex:25vmin;
+    flex: 0 0 10em;
 }
 
 #menu {
@@ -71,12 +101,17 @@ h1 {
     font-size: 3em;
 }
 
+.fa-user, .fa-briefcase, .fa-user, .fa-graduation-cap, .fa-award, .fa-book {
+    color: rgb(32, 121, 199);
+}
+
 .fa, .fab {
-    color: rgb(50, 50, 50, 0.5);
+    color: rgb(100, 100, 100);
 }
 
 .fa:hover, .fab:hover {
-    color: rgb(20, 20, 20, 0.8);
+    color: white;
+    cursor: pointer;
 }
 
 #copyright {
@@ -84,6 +119,7 @@ h1 {
     width: fit-content;
     margin-left: auto;
     margin-right:auto;
+    color: rgb(100, 100, 100);
 }
 
 @media screen and ( orientation: portrait ) { 

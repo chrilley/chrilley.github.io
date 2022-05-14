@@ -36,7 +36,7 @@ h3 {
     color: rgb(92, 92, 92);
 }
 
-h5 {
+h5, a, project-link {
     color: rgb(128, 128, 128);
     font-style: italic;
 }
@@ -136,7 +136,7 @@ h5 {
         font-size: 1.2em;
         width: 100%;
     }
-     h3, h4, h5, p   {
+     h3, h4, h5, project-link, p   {
         font-size: 0.8em;
     }
 

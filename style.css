@@ -96,6 +96,14 @@ h5, a, project-link {
     flex: 0 0 10em;
 }
 
+.error-message {
+    background-color: rgb(50, 12, 12);
+    width: fit-content;
+    padding: 1em;
+    border: 0.15em solid red;
+    border-radius: 1em;
+
+}
 #menu {
     text-align: center;
     font-size: 3em;

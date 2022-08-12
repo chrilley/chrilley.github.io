@@ -6,13 +6,19 @@ async function projectList() {
     const container = document.getElementById('right-column')
     const list = await api.get(githubAddress);
 
-    for (const project of list) {
+    if (list.error) {
+        const div = document.createElement('div');
+        div.className = 'error-message';
+        div.textContent = 'Could not load projects from GitHub!';
+        container.appendChild(div);
+    }
 
-        const div = document.createElement('div')
+    for (const project of list.data) {
+
+        const div = document.createElement('div');
         div.className = 'project';
         container.appendChild(div);
 
-        console.log(project);
         const link = document.createElement('a');
         link.className = 'project-link';
         link.textContent = project.name;

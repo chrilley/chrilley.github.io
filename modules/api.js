@@ -1,4 +1,4 @@
-'use-strict';
+'use strict';
 export const api = {
     result: { data: null, error: null },
     get: async function (url) {

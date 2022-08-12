@@ -92,6 +92,10 @@ h5, a, project-link {
     margin-bottom: 1.1em;
 }
 
+.project {
+    margin-bottom: 1em;
+}
+
 #right-column {
     flex: 0 0 10em;
 }
